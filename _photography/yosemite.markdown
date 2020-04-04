@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Yosemite National Park, CA"
+date:   2020-03-23
 categories: jekyll update
 ---
 ![][yosemite_1]

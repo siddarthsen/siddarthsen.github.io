@@ -1,19 +1,17 @@
 ---
 layout: default
+title: Cooking
 ---
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading">{{ cooking }}</h1>
   {%- endif -%}
 
-  {{ content }}
-
-  {%- if site.photography.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Recent Posts" }}</h2>
+  {%- if site.cooking.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Cooking" }}</h2>
     <ul class="post-list">
-      {% assign all_posts = site.photography | concat: site.cooking%}
-      {% assign sorted = all_posts | sort: 'date' | reverse %}
+      {% assign sorted = site.cooking | sort: 'date' | reverse %}
       {%- for post in sorted -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

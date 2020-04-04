@@ -32,10 +32,19 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
 collections:
     photography:
         output: true
         permalink: /photography/:path/
+    cooking:
+        output: true
+        permalink: /cooking/:path/ 
+
+header_pages:
+  - about.html
+  - photography.html
+  - cooking.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
