@@ -4,7 +4,9 @@ title:  "Lu Rou (Braised Pork)"
 date:   2020-04-04
 ---
 
-![][lu_rou]
+![Lu Rou Over Rice Illustration][lu_rou]{:height="300px"}
+
+*Illustration by Linda Shih*
 
 # Ingredients
 * 1.5 lbs of pork belly
@@ -29,5 +31,3 @@ date:   2020-04-04
 9. Serve over steamed rice
 
 [lu_rou]: /assets/imgs/lu_rou.png
-
-#recipe
