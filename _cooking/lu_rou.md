@@ -13,7 +13,7 @@ date:   2020-04-04
 * Soy sauce
 * Fried shallots
 * Sake
-* 2 tb Oyster sauce
+* 2 tbsp Oyster sauce
 * Five spice powder
 * White pepper
 * Dashi granules
